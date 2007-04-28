@@ -1,0 +1,90 @@
+**** Debug log started: Sat Apr 28 12:09:05 CDT 2007 ****
+% Storage System: v1 file storage mode.
+% Internal Data Cache size:          4194304
+% Internal Data Cache max cell size: 8192
+% lookup_comparison_list = false
+% read_only = false
+% transaction_error_on_dirty_select = true
+% ignore_case_for_identifiers = false
+% Java NIO API is available.
+% io_safety_level = 10
+% Using stardard IO API for heap buffered file access.
+% [Buffer Manager] Using IO API: Java IO
+% [Buffer Manager] Page Size: 8192
+% [Buffer Manager] Max pages: 256
+% Using regex bridge: gnu.regexp
+% No 'function_factories' config property found.
+% statement_cache = true
+% Max worker threads set to: 4
+% Starting Database Server
+**** Debug log started: Sat Apr 28 12:09:14 CDT 2007 ****
+% Storage System: v1 file storage mode.
+% Internal Data Cache size:          4194304
+% Internal Data Cache max cell size: 8192
+% lookup_comparison_list = false
+% read_only = false
+% transaction_error_on_dirty_select = true
+% ignore_case_for_identifiers = false
+% Java NIO API is available.
+% io_safety_level = 10
+% Using stardard IO API for heap buffered file access.
+% [Buffer Manager] Using IO API: Java IO
+% [Buffer Manager] Page Size: 8192
+% [Buffer Manager] Max pages: 256
+% Using regex bridge: gnu.regexp
+% No 'function_factories' config property found.
+% statement_cache = true
+% Max worker threads set to: 4
+% Starting Database Server
+> com.mckoi.database.jdbcserver.JDBCDatabaseInterface ( lvl: 20 )
+  Couldn't change to 'test.conf' schema.
+> com.mckoi.database.jdbcserver.JDBCDatabaseInterface ( lvl: 20 )
+  Exception thrown during query processing on: [ Query:
+[ select teacher.id from teacher where teacher.id = 'jmm0468' and teacher.password = 'dbaccess'; ]
+
+]
+[ TIME: Sat Apr 28 12:09:29 CDT 2007 ]
+% com.mckoi.database.StatementException: Table 'APP.teacher' was not found.
+	at com.mckoi.database.interpret.Planner.generateFromSet(Planner.java:170)
+	at com.mckoi.database.interpret.Select.prepare(Select.java:119)
+	at com.mckoi.database.interpret.SQLQueryExecutor.execute(SQLQueryExecutor.java:144)
+	at com.mckoi.database.jdbcserver.AbstractJDBCDatabaseInterface.execQuery(AbstractJDBCDatabaseInterface.java:461)
+	at com.mckoi.database.jdbcserver.JDBCDatabaseInterface.execQuery(JDBCDatabaseInterface.java:251)
+	at com.mckoi.database.jdbcserver.JDBCProcessor.queryCommand(JDBCProcessor.java:352)
+	at com.mckoi.database.jdbcserver.JDBCProcessor.processQuery(JDBCProcessor.java:293)
+	at com.mckoi.database.jdbcserver.JDBCProcessor.processJDBCCommand(JDBCProcessor.java:196)
+	at com.mckoi.database.jdbcserver.StreamJDBCServerConnection.processRequest(StreamJDBCServerConnection.java:137)
+	at com.mckoi.database.jdbcserver.MultiThreadedConnectionPoolServer$1.run(MultiThreadedConnectionPoolServer.java:171)
+	at com.mckoi.database.WorkerThread.run(WorkerThread.java:123)
+> com.mckoi.database.jdbcserver.JDBCDatabaseInterface ( lvl: 20 )
+  Couldn't change to 'test.conf' schema.
+> com.mckoi.database.jdbcserver.JDBCDatabaseInterface ( lvl: 20 )
+  Couldn't change to 'test.conf' schema.
+> com.mckoi.database.jdbcserver.JDBCDatabaseInterface ( lvl: 20 )
+  Couldn't change to 'test.conf' schema.
+> com.mckoi.database.jdbcserver.JDBCDatabaseInterface ( lvl: 20 )
+  Couldn't change to 'test.conf' schema.
+> com.mckoi.database.jdbcserver.JDBCDatabaseInterface ( lvl: 20 )
+  Couldn't change to 'test.conf' schema.
+> com.mckoi.database.jdbcserver.JDBCDatabaseInterface ( lvl: 20 )
+  Couldn't change to 'test.conf' schema.
+> com.mckoi.database.jdbcserver.JDBCDatabaseInterface ( lvl: 20 )
+  Couldn't change to 'test.conf' schema.
+> com.mckoi.database.jdbcserver.JDBCDatabaseInterface ( lvl: 20 )
+  Couldn't change to 'test.conf' schema.
+> com.mckoi.database.jdbcserver.JDBCDatabaseInterface ( lvl: 20 )
+  Couldn't change to 'test.conf' schema.
+> com.mckoi.database.jdbcserver.JDBCDatabaseInterface ( lvl: 20 )
+  Couldn't change to 'test.conf' schema.
+> com.mckoi.database.jdbcserver.JDBCDatabaseInterface ( lvl: 20 )
+  Couldn't change to 'test.conf' schema.
+> com.mckoi.database.jdbcserver.JDBCDatabaseInterface ( lvl: 20 )
+  Couldn't change to 'test.conf' schema.
+> com.mckoi.database.jdbcserver.JDBCDatabaseInterface ( lvl: 20 )
+  Couldn't change to 'test.conf' schema.
+> com.mckoi.database.jdbcserver.JDBCDatabaseInterface ( lvl: 20 )
+  Couldn't change to 'test.conf' schema.
+> com.mckoi.database.jdbcserver.JDBCDatabaseInterface ( lvl: 20 )
+  Couldn't change to 'test.conf' schema.
+> com.mckoi.database.jdbcserver.JDBCDatabaseInterface ( lvl: 20 )
+  Couldn't change to 'test.conf' schema.
